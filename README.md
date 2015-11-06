@@ -1,6 +1,12 @@
 # MyPrinterLEDControl
 
-**TODO:** Describe what your plugin does.
+This plugin sets the LEDs irt to the printer's status.
+Actually, it sets the LEDS from RED (set in GCODE scrip from OctoPrint) to WHITE.
+So we have better light to illuminate the print for the web cam.
+
+In addition, I set a view parameters for my wb cam, to make sure we have no automation
+for white balancing, exposure and auto focus.
+
 
 ## Setup
 
@@ -9,9 +15,4 @@ or manually using this URL:
 
     https://github.com/frank-von-thienen/OctoPrint-MyPrinterLEDControl/archive/master.zip
 
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
 
-## Configuration
-
-**TODO:** Describe your plugin's configuration options (if any).
