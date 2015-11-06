@@ -25,7 +25,7 @@ class MyPrinterLEDControlPlugin(octoprint.plugin.StartupPlugin,
         os.system ("uvcdynctrl -s 'White Balance Temperature, Auto' 0") # switching off AUTO WBT
         os.system ("uvcdynctrl -s 'White Balance Temperature' 5700")
         os.system ("uvcdynctrl -s 'Exposure, Auto' 0")                  # swithing off AUTO Exposure
-        os.system ("uvcdynctrl -s 'Exposure (Absolute)' 120")
+        os.system ("uvcdynctrl -s 'Exposure (Absolute)' 130")
         os.system ("uvcdynctrl -s 'Contrast' 155")
         os.system ("uvcdynctrl -s 'Brightness' 175")
         os.system ("uvcdynctrl -s 'Focus, Auto' 0")                      # switching off AUTO Focus
