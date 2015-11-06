@@ -37,7 +37,7 @@ class MyPrinterCallback(octoprint.printer.PrinterCallback):
 
     # Compare some flag to see if the printer is printing in real
     # If the printer starts heating the FLAG:PRINTING is set
-    # I use this information in OCtoprint GCODE script:BEFORE PRINT JOB STARTS to set the LEDs to RED
+    # I use this information in Octoprint GCODE script:BEFORE PRINT JOB STARTS to set the LEDs to RED
     # Unfortunately, this is not an indication for printing th eobject.
     # The "real" printing starts, if the bed is move in Z direction (first layer hight)
     # This is the  indicator for starting the print and setting the LEDs to white
