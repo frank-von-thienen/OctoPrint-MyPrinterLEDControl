@@ -51,8 +51,8 @@ class MyPrinterCallback(octoprint.printer.PrinterCallback):
 
 
 #plugin settings
-__plugin_version__        = "0.9.3"
-__plugin_name__           = "My Printer LED Control"
-__plugin_description__    = "Plugin switching LEDS depending on the printer status"
-__plugin_author__         = "Frank von Thienen"
+__plugin_version__ = "0.9.3"
+__plugin_name__ = "xxMy Printer LED Control"
+__plugin_description__ = "Plugin switching LEDS depending on the printer status"
+__plugin_author__ = "xxFrank von Thienen"
 __plugin_implementation__ = MyPrinterLEDControlPlugin()
